@@ -51,8 +51,7 @@ $white-light: #F3F3F3;;
   }
   .slider{
     background-image: url(../src/plant.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size:100% 100%;
   }
   .slider-btn{
   width: 228px;
@@ -79,4 +78,20 @@ line-height: 28px;
 color: $white;
 max-width: 600px;
 padding-bottom: 94px;
+}
+.slider-pagination{
+  display: flex;
+  justify-content: center;
+}
+.pagination{
+cursor: pointer;
+width: 12px;
+height: 12px;
+background: rgba(255, 255, 255, 0.1);
+border: 1px solid $white;
+margin-right: 16px;
+margin-bottom: 40px;
+}
+.pagination:hover{
+  background: $white;
 }

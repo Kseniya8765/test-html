@@ -33,3 +33,15 @@ $white-light: #F3F3F3;;
     opacity: 0.15;
     border: 1px solid $black;     
   }
+  .navigation{
+    display: flex;
+    justify-content: center;
+  }
+  .navigation li{
+    cursor: pointer;
+    padding: 20px;
+  }
+  .navigation li:hover{
+    background-color: $orange;
+    color: $white-light;
+  }

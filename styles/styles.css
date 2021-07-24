@@ -25,6 +25,10 @@
 }
 
 .search {
+  font-family: Museo Sans Cyrl;
+  font-size: 16px;
+  color: #000000;
+  opacity: 0.5;
   width: 557px;
   height: 50px;
   background-color: #F3F3F3;
@@ -83,7 +87,7 @@ h1 {
   font-weight: bold;
   font-size: 60px;
   color: #FFFFFF;
-  margin: 20px;
+  margin: 20px 0;
   max-width: 550px;
 }
 
@@ -117,5 +121,40 @@ h1 {
 
 .pagination:hover {
   background: #FFFFFF;
+}
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 35px 20px;
+}
+
+.service:hover {
+  background-color: #F3F3F3;
+}
+
+.service-img {
+  margin-right: 12px;
+}
+
+.service-name a {
+  font-family: Museo Sans Cyrl;
+  text-decoration: none;
+  font-size: 14px;
+  color: #323232;
+}
+
+.new {
+  margin-top: 67px;
 }
 /*# sourceMappingURL=styles.css.map */

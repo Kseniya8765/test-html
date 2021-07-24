@@ -22,6 +22,10 @@ $white-light: #F3F3F3;;
       padding: 25px 0;
   }
   .search{
+  font-family: Museo Sans Cyrl;
+  font-size: 16px;
+  color: $black;
+  opacity: 0.5;
   width: 557px;
   height: 50px;
   background-color: $white-light;
@@ -68,7 +72,7 @@ font-family: Museo Sans Cyrl;
 font-weight: bold;
 font-size: 60px;
 color: $white;
-margin: 20px;
+margin: 20px 0;
 max-width: 550px;
   }
 .slider-container p{
@@ -94,4 +98,28 @@ margin-bottom: 40px;
 }
 .pagination:hover{
   background: $white;
+}
+.services{
+  display: flex;
+}
+.service{
+  display: flex;
+  align-items: center;
+  padding: 35px 20px;
+}
+.service:hover{
+  background-color: $white-light;
+}
+.service-img{
+  margin-right: 12px;
+}
+.service-name a{
+font-family: Museo Sans Cyrl;
+text-decoration: none;
+font-size: 14px;
+color: $gray;
+
+}
+.new{
+  margin-top: 67px;
 }

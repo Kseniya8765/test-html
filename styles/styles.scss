@@ -41,6 +41,10 @@ $white-light: #F3F3F3;;
     cursor: pointer;
     padding: 20px;
   }
+  .navigation li a{
+  text-decoration: none;
+  color: $black;
+  }
   .navigation li:hover{
     background-color: $orange;
     color: $white-light;

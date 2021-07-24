@@ -52,6 +52,11 @@ hr {
   padding: 20px;
 }
 
+.navigation li a {
+  text-decoration: none;
+  color: #000000;
+}
+
 .navigation li:hover {
   background-color: #e69a37;
   color: #F3F3F3;

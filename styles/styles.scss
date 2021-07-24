@@ -3,7 +3,10 @@ $white: #ffffff;
 $black: #000000;
 $gray: #323232;
 $white-light: #f3f3f3;
-$Museo-font: Museo Sans Cyrl;
+$Museo-font-300: 'Museo Sans Cyrl 300';
+$Museo-font-500: 'Museo Sans Cyrl 500';
+$Museo-font-700: 'Museo Sans Cyrl 700';
+$Museo-font-900: 'Museo Sans Cyrl 900';
 $margin20: 20px;
 
 * {
@@ -27,7 +30,7 @@ form {
   position: relative;
 }
 .search {
-  font-family: $Museo-font;
+  font-family: $Museo-font-500;
   font-size: 16px;
   color: $black;
   opacity: 0.5;
@@ -60,7 +63,7 @@ hr {
 }
 
 .navigation li a {
-  font-family: $Museo-font;
+  font-family: $Museo-font-500;
   font-size: 18px;
   color: $black;
   display: block;
@@ -92,7 +95,7 @@ hr {
   color: $white-light;
   background-color: $orange;
   margin-top: 130px;
-  font-family: $Museo-font;
+  font-family: $Museo-font-900;
   font-weight: bold;
   font-size: 13px;
   letter-spacing: 0.2em;
@@ -109,7 +112,7 @@ hr {
   transform: translateY(2px);
 }
 h1 {
-  font-family: $Museo-font;
+  font-family: $Museo-font-900;
   font-weight: bold;
   font-size: 60px;
   color: $white;
@@ -117,7 +120,7 @@ h1 {
   max-width: 550px;
 }
 .slider-container p {
-  font-family: $Museo-font;
+  font-family: $Museo-font-500;
   font-size: 22px;
   line-height: 28px;
   color: $white;
@@ -161,7 +164,7 @@ h1 {
 }
 .service-name a {
   display: block;
-  font-family: $Museo-font;
+  font-family: $Museo-font-500;
   text-decoration: none;
   font-size: 14px;
   color: $gray;

@@ -107,6 +107,21 @@ hr {
   margin-top: 130px;
 }
 
+.slider-btn:hover {
+  border: 3px dotted #323232;
+  color: #000000;
+  background: rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slider-btn:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
 h1 {
   font-family: Museo Sans Cyrl;
   font-weight: bold;
@@ -170,6 +185,7 @@ h1 {
 
 .service:hover {
   background-color: #F3F3F3;
+  text-decoration: underline;
 }
 
 .service-img {

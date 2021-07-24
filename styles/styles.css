@@ -68,21 +68,29 @@ hr {
           justify-content: center;
 }
 
-.navigation li {
-  cursor: pointer;
+.navigation li a {
+  font-family: Museo Sans Cyrl;
+  font-size: 18px;
+  color: #000000;
+  display: block;
+  text-decoration: none;
+  color: #000000;
   padding: 20px;
 }
 
-.navigation li a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.navigation li:hover {
+.navigation li a:hover {
   background-color: #E69A37;
-  color: #F3F3F3;
+  color: #FFFFFF;
 }
 
+.navigation li a:active {
+  background-color: #323232;
+}
+
+/*.active-nav{
+    background-color: $gray;
+    color: $white-light;
+  }*/
 .slider {
   background-image: url(../src/plant.jpg);
   background-size: 100% 100%;
@@ -138,6 +146,10 @@ h1 {
 
 .pagination:hover {
   background: #FFFFFF;
+}
+
+.pagination:active {
+  background: #E69A37;
 }
 
 .services {

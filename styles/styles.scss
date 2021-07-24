@@ -1,5 +1,5 @@
-$orange:rgba(230, 154, 55, 1);
-$white: rgba(202, 202, 202, 1);
+$orange:#E69A37;
+$white: #FFFFFF;;
 $black: #000000;
 $gray: #323232;
 $white-light: #F3F3F3;;
@@ -49,3 +49,34 @@ $white-light: #F3F3F3;;
     background-color: $orange;
     color: $white-light;
   }
+  .slider{
+    background-image: url(../src/plant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .slider-btn{
+  width: 228px;
+  height: 38px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  color: $white-light;
+  background-color: $orange;
+  margin-top: 130px;
+  }
+  h1{
+font-family: Museo Sans Cyrl;
+font-weight: bold;
+font-size: 60px;
+color: $white;
+margin: 20px;
+max-width: 550px;
+  }
+.slider-container p{
+font-family: Museo Sans Cyrl;
+font-size: 22px;
+line-height: 28px;
+color: $white;
+max-width: 600px;
+padding-bottom: 94px;
+}

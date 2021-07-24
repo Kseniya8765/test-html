@@ -58,7 +58,42 @@ hr {
 }
 
 .navigation li:hover {
-  background-color: #e69a37;
+  background-color: #E69A37;
   color: #F3F3F3;
+}
+
+.slider {
+  background-image: url(../src/plant.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slider-btn {
+  width: 228px;
+  height: 38px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  color: #F3F3F3;
+  background-color: #E69A37;
+  margin-top: 130px;
+}
+
+h1 {
+  font-family: Museo Sans Cyrl;
+  font-weight: bold;
+  font-size: 60px;
+  color: #FFFFFF;
+  margin: 20px;
+  max-width: 550px;
+}
+
+.slider-container p {
+  font-family: Museo Sans Cyrl;
+  font-size: 22px;
+  line-height: 28px;
+  color: #FFFFFF;
+  max-width: 600px;
+  padding-bottom: 94px;
 }
 /*# sourceMappingURL=styles.css.map */

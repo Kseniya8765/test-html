@@ -1,32 +1,32 @@
-$orange:#E69A37;
-$white: #FFFFFF;
+$orange: #e69a37;
+$white: #ffffff;
 $black: #000000;
 $gray: #323232;
-$white-light: #F3F3F3;
+$white-light: #f3f3f3;
 $Museo-font: Museo Sans Cyrl;
 $margin20: 20px;
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .wrapper {
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0 10px;
-  }
-  .header-container{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 25px 0;
-  }
-  form{
-    position: relative;
-  }
-  .search{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+form {
+  position: relative;
+}
+.search {
   font-family: $Museo-font;
   font-size: 16px;
   color: $black;
@@ -37,29 +37,29 @@ $margin20: 20px;
   border: none;
   outline: none;
   padding-left: $margin20;
-  }
-  .submit{
+}
+.submit {
   background-color: $white-light;
   opacity: 0.5;
   border: none;
-  outline: none; 
+  outline: none;
   height: 50px;
-  width:36px;
+  width: 36px;
   position: absolute;
   top: 0;
   right: 0;
   cursor: pointer;
-  }
-  hr{
-    opacity: 0.15;
-    border: 1px solid $black;     
-  }
-  .navigation{
-    display: flex;
-    justify-content: center;
-  }
-  
-  .navigation li a{
+}
+hr {
+  opacity: 0.15;
+  border: 1px solid $black;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation li a {
   font-family: $Museo-font;
   font-size: 18px;
   color: $black;
@@ -67,23 +67,23 @@ $margin20: 20px;
   text-decoration: none;
   color: $black;
   padding: $margin20;
-  }
-  .navigation li a:hover{
-    background-color: $orange;
-    color: $white;
-  }
-  .navigation li a:active{
-    background-color: $gray;
-  }
-  /*.active-nav{
+}
+.navigation li a:hover {
+  background-color: $orange;
+  color: $white;
+}
+.navigation li a:active {
+  background-color: $gray;
+}
+/*.active-nav{
     background-color: $gray;
     color: $white-light;
   }*/
-  .slider{
-    background-image: url(../src/plant.jpg);
-    background-size:100% 100%;
-  }
-  .slider-btn{
+.slider {
+  background-image: url(../src/plant.jpg);
+  background-size: 100% 100%;
+}
+.slider-btn {
   width: 228px;
   height: 38px;
   text-transform: uppercase;
@@ -92,74 +92,80 @@ $margin20: 20px;
   color: $white-light;
   background-color: $orange;
   margin-top: 130px;
-  }
-  .slider-btn:hover {
-    border: 3px dotted $gray;
-    color: $black;
-    background: rgba(0,0,0,0);
-    transition-duration: 0.5s;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  .slider-btn:active{
-  transform: translateY(2px);
-  }
-  h1{
-font-family: $Museo-font;
-font-weight: bold;
-font-size: 60px;
-color: $white;
-margin: $margin20 0;
-max-width: 550px;
-  }
-.slider-container p{
-font-family: $Museo-font;
-font-size: 22px;
-line-height: 28px;
-color: $white;
-max-width: 600px;
-padding-bottom: 94px;
+  font-family: $Museo-font;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.2em;
 }
-.slider-pagination{
+.slider-btn:hover {
+  border: 3px dotted $gray;
+  color: $black;
+  background: rgba(0, 0, 0, 0);
+  transition-duration: 0.5s;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.slider-btn:active {
+  transform: translateY(2px);
+}
+h1 {
+  font-family: $Museo-font;
+  font-weight: bold;
+  font-size: 60px;
+  color: $white;
+  margin: $margin20 0;
+  max-width: 550px;
+}
+.slider-container p {
+  font-family: $Museo-font;
+  font-size: 22px;
+  line-height: 28px;
+  color: $white;
+  max-width: 600px;
+  padding-bottom: 94px;
+}
+.slider-pagination {
   display: flex;
   justify-content: center;
 }
-.pagination{
-cursor: pointer;
-width: 12px;
-height: 12px;
-background: rgba(255, 255, 255, 0.1);
-border: 1px solid $white;
-margin-right: 16px;
-margin-bottom: 40px;
+.pagination {
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid $white;
+  margin-right: 16px;
+  margin-bottom: 40px;
 }
-.pagination:hover{
+.pagination:hover {
   background: $white;
 }
-.pagination:active{
+.pagination:active {
   background: $orange;
 }
-.services{
+.services {
   display: flex;
 }
-.service{
+.service {
   display: flex;
   align-items: center;
   padding: 35px $margin20;
+  cursor: pointer;
 }
-.service:hover{
+.service:hover {
   background-color: $white-light;
   text-decoration: underline;
 }
-.service-img{
+.service-img {
   margin-right: 12px;
 }
-.service-name a{
-font-family: $Museo-font;
-text-decoration: none;
-font-size: 14px;
-color: $gray;
-
+.service-name a {
+  display: block;
+  font-family: $Museo-font;
+  text-decoration: none;
+  font-size: 14px;
+  color: $gray;
 }
-.new{
+.new {
   margin-top: 67px;
 }

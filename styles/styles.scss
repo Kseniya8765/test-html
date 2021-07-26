@@ -7,7 +7,7 @@ $Museo-font-300: 'Museo Sans Cyrl 300';
 $Museo-font-500: 'Museo Sans Cyrl 500';
 $Museo-font-700: 'Museo Sans Cyrl 700';
 $Museo-font-900: 'Museo Sans Cyrl 900';
-$margin20: 20px;
+$margin20: 1.25em;
 
 * {
   margin: 0;
@@ -26,6 +26,9 @@ $margin20: 20px;
   align-items: center;
   padding: 15px 0;
 }
+.logo{
+  max-width: 300px;
+}
 form {
   position: relative;
 }
@@ -34,7 +37,7 @@ form {
   font-size: 16px;
   color: $black;
   opacity: 0.5;
-  width: 521px;
+  max-width: 521px;
   height: 50px;
   background-color: $white-light;
   border: none;
@@ -87,14 +90,14 @@ hr {
   background-size: 100% 100%;
 }
 .slider-btn {
-  width: 228px;
+  max-width: 228px;
   height: 38px;
   text-transform: uppercase;
   cursor: pointer;
   border: none;
   color: $white-light;
   background-color: $orange;
-  margin-top: 130px;
+  margin-top: 8.125em;
   font-family: $Museo-font-900;
   font-weight: bold;
   font-size: 13px;
@@ -138,7 +141,7 @@ h1 {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid $white;
   margin-right: 16px;
-  margin-bottom: 40px;
+  margin-bottom: 2.5em;
 }
 .pagination:hover {
   background: $white;
@@ -152,7 +155,7 @@ h1 {
 .service {
   display: flex;
   align-items: center;
-  padding: 35px $margin20;
+  padding: 2.1875 $margin20;
   cursor: pointer;
 }
 .service:hover {
@@ -160,7 +163,7 @@ h1 {
   text-decoration: underline;
 }
 .service-img {
-  margin-right: 12px;
+  margin-right: 0.75em;
 }
 .service-name a {
   display: block;
@@ -170,5 +173,5 @@ h1 {
   color: $gray;
 }
 .new {
-  margin-top: 67px;
+  margin-top: 4.1875em;
 }

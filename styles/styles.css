@@ -321,6 +321,9 @@ h1 {
   .submit {
     display: none;
   }
+  .slider {
+    background-size: cover;
+  }
   .service-center{
     margin-left: 20px;
   }

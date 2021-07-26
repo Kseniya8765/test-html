@@ -151,11 +151,12 @@ h1 {
 }
 .services {
   display: flex;
+  flex-wrap: wrap;
 }
 .service {
   display: flex;
   align-items: center;
-  padding: 2.1875 $margin20;
+  padding: 2.1875em $margin20;
   cursor: pointer;
 }
 .service:hover {
@@ -175,3 +176,4 @@ h1 {
 .new {
   margin-top: 4.1875em;
 }
+
